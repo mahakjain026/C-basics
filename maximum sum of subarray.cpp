@@ -50,7 +50,7 @@ int main(){
     cin>>n;
     int a[n],i,j;
     int cumsum[1000]={0};
-    int maximum_sum=0;
+    int maximum_sum=-1e9;
     int current_sum=0;
     int left=0;
     int right=0;
@@ -86,10 +86,9 @@ int main(){
 
         }
         }
-        cout<<"maximum_sum is "<<maximum_sum<<endl;
-
-       return 0;
+        
     
 	}
+	cout<<"maximum_sum is "<<maximum_sum<<endl;
 
 }
